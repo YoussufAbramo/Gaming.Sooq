@@ -1,14 +1,14 @@
 import React from 'react'
-
 export default function Header() {
-
   return (
     <>
       <header>
         <nav
           className="navbar navbar-expand-lg fixed-top shadow-lg border-bottom border-light-subtle p-0 bg-opacity-90 bg-dark text-light">
           <div className="container">
-            <a className="navbar-brand mx-0 p-0 pe-4" href="#"><img src="imgs/gaming-sooq-discord.png" width="120" /></a>
+            <a className="navbar-brand mx-0 p-0 pe-4" href="#">
+              <img src="imgs/gaming-sooq-discord.png" width="120" />
+            </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
